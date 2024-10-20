@@ -1,0 +1,104 @@
+*{
+  padding:0px;
+  margin:0px;
+  border:border-box;
+  font-family:FONTSPRING DEMO - Articulat CF Light';;
+}
+:root {
+    --clr-orange: #f33525;
+    --clr-blue: #191e62;
+    --btn-padding: .6em 2em;
+}
+header{
+      display:flex;
+      align-items:center;
+      padding-inline: 1em;
+}
+header img{
+   width:30px;
+}
+.bino-img {
+     display:flex;
+     gap:5px;
+     padding-top:20px;
+}
+.hero-img {
+    display:flex;
+    
+    justify-self:center;
+}
+.hero-img img{
+   width:70%;
+   position:relative;
+   /*right:-50;
+   bottom:200;*/
+}
+.text{
+     padding-top:80px;
+     display:flex;
+     flex-direction:column;
+     gap:1.2em;
+     justify-content:space-between;
+     color:#191e62;
+     
+} 
+.h6{
+    font-family: 'FONTSPRING DEMO - Articulat CF Light';
+    font-weight: 400;
+    font-style: normal;
+}
+.hero-text{
+     padding-top:30px;
+}
+span{
+    color:#f33525;
+}
+
+.cta-container a:first-child {
+   background-color:#f33525;
+   color:#fff;
+   border-radius:100px;
+}
+.cta-container a:last-child{
+      padding:0px 8px;
+      font-size:.6em;
+      color:#191e62;
+}
+.cta-container a{
+ text-decoration:none;
+ font-size:.5em;
+ padding: 10px 25px;
+ display:inline-flex;
+ align-items:center;
+ gap: .5em;
+}
+
+.cta-container a img{
+  width: 1em;
+}
+
+.hamburger span{
+    width: 25px;
+    height: 2px;
+    border-radius: 100px;
+    display:inline-block;
+    background-color:#f33525;
+}
+
+.hamburger{
+    display: grid;
+    gap: 5px;
+    position: fixed;
+    right: 2.5em; 
+    top:1.4em;       
+}
+main{
+     display:flex;
+     /**flex-direction:column;/**/
+     padding: 1em;
+     flex-shrink:0px;
+     flex-wrap:wrap;
+}
+nav{
+    display:none;
+}
